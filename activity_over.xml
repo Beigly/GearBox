@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="info.gearboxgame.gearbox.OverActivity"
+    android:gravity="center"
+    android:focusable="false"
+    android:onClick="ActClsBtn">
+
+
+    <ImageView
+        android:layout_width="640dp"
+        android:layout_height="360dp"
+        android:id="@+id/imgbak"
+
+        android:onClick="ActClsBtn"
+        android:src="@drawable/bkgrd"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:visibility="invisible" />
+
+
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="300dp"
+        android:id="@+id/imggo"
+        android:src="@drawable/go"
+        android:contentDescription=""
+        android:onClick="ActClsBtn"
+        android:layout_centerInParent="true"
+        android:visibility="invisible">
+    </ImageView>
+
+
+</RelativeLayout>
+
+

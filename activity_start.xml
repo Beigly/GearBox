@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="info.gearboxgame.gearbox.StartActivity"
+    android:gravity="center"
+    android:focusable="false"
+    android:onClick="select">
+
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:id="@+id/imggo"
+        android:src="@drawable/start"
+        android:contentDescription=""
+        android:onClick="select">
+    </ImageView>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="27dp"
+        android:text="   Player  Name :"
+        android:id="@+id/textViewst"
+        android:background="#ffffff80"
+        android:autoText="false"
+        android:textSize="20dp"
+        android:textColor="#ff000000"
+        android:layout_marginLeft="50dp"
+        android:layout_alignLeft="@+id/imggo"
+        android:layout_marginTop="50dp"
+        android:layout_alignTop="@+id/imggo"
+        android:onClick="select" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="27dp"
+        android:inputType="textPersonName"
+        android:text="NoName"
+        android:ems="10"
+        android:id="@+id/editTextst"
+        android:layout_toEndOf="@+id/textViewst"
+        android:layout_alignRight="@+id/imggo"
+        android:layout_marginRight="50dp"
+        android:background="#ff818181"
+        android:layout_toRightOf="@+id/textViewst"
+        android:textSize="20dp"
+        android:textColor="#ffffffa0"
+        android:layout_marginTop="50dp"
+        android:layout_alignTop="@+id/imggo"
+        android:enabled="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:autoText="true"
+        android:clickable="true"
+        android:editable="true"
+        android:singleLine="true"
+        android:selectAllOnFocus="true"
+        android:onClick="select"
+        android:textCursorDrawable="@drawable/textcursor"/>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="OK"
+        android:id="@+id/butOk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="225dp"
+        android:layout_alignLeft="@+id/imggo"
+        android:background="#ffffff80"
+        android:textColor="#ff000000"
+        android:textSize="20dp"
+        android:onClick="ActClose"
+        android:layout_marginBottom="50dp"
+        android:layout_alignBottom="@+id/imggo"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="27dp"
+
+        android:text="  Stage   :"
+        android:id="@+id/textViews"
+        android:layout_below="@+id/textViewst"
+        android:layout_alignRight="@+id/textViewst"
+        android:layout_alignEnd="@+id/textViewst"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignLeft="@+id/imggo"
+        android:background="#ffffff80"
+        android:textColor="#ff000000"
+        android:textSize="20dp"
+        android:onClick="select" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="27dp"
+
+        android:text="@string/constone"
+        android:id="@+id/textViewsv"
+
+
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="250dp"
+        android:layout_below="@+id/editTextst"
+        android:layout_alignRight="@+id/imggo"
+        android:background="#ff818181"
+        android:textColor="#ffffff80"
+        android:textSize="20dp"
+        android:onClick="select"
+        android:layout_alignLeft="@+id/editTextst" />
+
+</RelativeLayout>
+
