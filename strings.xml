@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GearBox</string>
+    <string name="title_activity_control">ControlActivity</string>
+    <string name="action_settings">Activity</string>
+    <string name="beta">Beta</string>
+
+
+    <string name="layer">Layer</string>
+    <string name="help">Help</string>
+    <string name="sound">Sound</string>
+    <string name="delete">Delete</string>
+    <string name="stop">Stop</string>
+    <string name="teeth">Teeth</string>
+    <string name="Teta">Teta</string>
+    <string name="alpha">Alpha</string>
+    <string name="title_activity_startpage">startpage</string>
+    <string name="constone">1</string>
+</resources>
